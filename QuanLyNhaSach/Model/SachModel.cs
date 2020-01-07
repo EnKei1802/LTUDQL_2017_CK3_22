@@ -8,5 +8,7 @@ namespace QuanLyNhaSach.Model
 {
     class SachModel
     {
+        //dựa vào KhachHangModel.cs 
+        //giống hệt
     }
 }

@@ -8,5 +8,7 @@ namespace QuanLyNhaSach.Object
 {
     class SachObject
     {
+        //dựa vào KhachHangObj.cs
+        //giống hệt
     }
 }

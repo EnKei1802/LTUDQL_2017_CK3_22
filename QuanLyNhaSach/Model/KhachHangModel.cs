@@ -18,7 +18,7 @@ namespace QuanLyNhaSach.Model
         {
             DataTable dt = new DataTable();
 
-            cmdSql.CommandText = "select * from KHACHHHANG";
+            cmdSql.CommandText = "select * from KHACHHANG";
             cmdSql.CommandType = CommandType.Text;
             cmdSql.Connection = conSql.Connection;
 

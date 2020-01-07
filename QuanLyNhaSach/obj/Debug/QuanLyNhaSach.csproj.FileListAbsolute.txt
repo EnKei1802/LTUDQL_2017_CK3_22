@@ -8,3 +8,4 @@ H:\DoAn_LTUDQL\QuanLyNhaSach\obj\Debug\QuanLyNhaSach.csproj.GenerateResource.cac
 H:\DoAn_LTUDQL\QuanLyNhaSach\obj\Debug\QuanLyNhaSach.csproj.CoreCompileInputs.cache
 H:\DoAn_LTUDQL\QuanLyNhaSach\obj\Debug\QuanLyNhaSach.exe
 H:\DoAn_LTUDQL\QuanLyNhaSach\obj\Debug\QuanLyNhaSach.pdb
+H:\DoAn_LTUDQL\QuanLyNhaSach\obj\Debug\QuanLyNhaSach.View.frmSach.resources
