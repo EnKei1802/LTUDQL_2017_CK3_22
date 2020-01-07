@@ -100,3 +100,4 @@ create table CHITIETBAOCAOTON
 	SoTienKhachHangNoToiDa float,
 	SoLuongTonToiDaDeBan int
  )
+ select * from KHACHHANG
