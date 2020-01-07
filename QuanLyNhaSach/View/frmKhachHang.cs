@@ -74,7 +74,7 @@ namespace QuanLyNhaSach.View
 
         private void bntXoa_Click(object sender, EventArgs e)
         {
-            DialogResult dr = MessageBox.Show("Bạn chắn chắn xóa?", "Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question);\
+            DialogResult dr = MessageBox.Show("Bạn chắn chắn xóa?", "Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (dr == DialogResult.Yes)
             {
                 //xóa
@@ -100,6 +100,11 @@ namespace QuanLyNhaSach.View
         {
             flag = 0;
             dis_en(true);
+        }
+
+        private void dgvDSKhachHang_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }
