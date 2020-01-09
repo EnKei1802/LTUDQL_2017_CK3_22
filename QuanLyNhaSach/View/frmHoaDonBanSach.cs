@@ -16,5 +16,10 @@ namespace QuanLyNhaSach.View
         {
             InitializeComponent();
         }
+
+        private void frmHoaDonBanSach_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
