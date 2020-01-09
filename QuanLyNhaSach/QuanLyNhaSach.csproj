@@ -161,11 +161,23 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+<<<<<<< HEAD
+=======
+    <EmbeddedResource Include="View\frmBaoCaoCongNo.resx">
+      <DependentUpon>frmBaoCaoCongNo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmBaoCaoTon.resx">
+      <DependentUpon>frmBaoCaoTon.cs</DependentUpon>
+    </EmbeddedResource>
+>>>>>>> c3bd06dd21ab78017e86891ce35ef0910ab51d99
     <EmbeddedResource Include="View\frmHoaDonBanSach.resx">
       <DependentUpon>frmHoaDonBanSach.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\frmKhachHang.resx">
       <DependentUpon>frmKhachHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmPhieuNhapSach.resx">
+      <DependentUpon>frmPhieuNhapSach.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\frmSach.resx">
       <DependentUpon>frmSach.cs</DependentUpon>

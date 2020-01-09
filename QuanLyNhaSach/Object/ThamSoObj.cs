@@ -16,5 +16,13 @@ namespace QuanLyNhaSach.Object
         public int SoLuongTonItNhatDeNhap { get => soLuongTonItNhatDeNhap; set => soLuongTonItNhatDeNhap = value; }
         public int SoTienKhachHangNoToiDa { get => soTienKhachHangNoToiDa; set => soTienKhachHangNoToiDa = value; }
         public int SoLuongTonToiDaDeBan { get => soLuongTonToiDaDeBan; set => soLuongTonToiDaDeBan = value; }
+        public ThamSoObj() { }
+        public ThamSoObj(int soLuongNhapItNhat,int soLuongTonItNhatDeNhap,int soTienKhachHangNoToiDa,int soLuongTonToiDaDeBan)
+        {
+            this.soLuongNhapItNhat = soLuongNhapItNhat;
+            this.soLuongTonItNhatDeNhap = soLuongTonItNhatDeNhap;
+            this.soTienKhachHangNoToiDa = soTienKhachHangNoToiDa;
+            this.soLuongTonToiDaDeBan = soLuongTonToiDaDeBan;
+        }
     }
 }

@@ -12,5 +12,11 @@ namespace QuanLyNhaSach.Object
         private DateTime ngayNhap;
         public string MaPhieuNhap { get => maPhieuNhap; set => maPhieuNhap = value; }
         public DateTime NgayNhap { get => ngayNhap; set => ngayNhap = value; }
+        public PhieuNhapObj() { }
+        public PhieuNhapObj(string maPhieuNhap, DateTime ngayNhap)
+        {
+            this.maPhieuNhap = maPhieuNhap;
+            this.ngayNhap = ngayNhap;
+        }
     }
 }
