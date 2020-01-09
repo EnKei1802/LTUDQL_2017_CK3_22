@@ -17,6 +17,7 @@ namespace QuanLyNhaSach.Object
         {
             this.maPhieuNhap = maPhieuNhap;
             this.ngayNhap = ngayNhap;
+
         }
     }
 }

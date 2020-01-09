@@ -29,6 +29,7 @@ namespace QuanLyNhaSach.Object
             this.noDau = noDau;
             this.phatSinh = phatSinh;
             this.noCuoi = noCuoi;
+
         }
 
     }

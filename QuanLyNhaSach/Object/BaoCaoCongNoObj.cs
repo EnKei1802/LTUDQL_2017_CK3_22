@@ -17,6 +17,7 @@ namespace QuanLyNhaSach.Object
         { 
             this.maBaoCaoCongNo = maBaoCaoCongNo;
             this.thang = thang;
+
         }
     }
 }

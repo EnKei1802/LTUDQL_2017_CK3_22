@@ -24,6 +24,7 @@ namespace QuanLyNhaSach.Object
             this.maKhachHang = maKhachHang;
             this.ngayThuTien = ngayThuTien;
             this.soTienThu = soTienThu;
+
         }
     }
 }

@@ -41,7 +41,7 @@ namespace QuanLyNhaSach.Model
         public bool AddData(SachObject sObj)
         {
             cmdSql.CommandText = "insert into SACH values('" + sObj.MaSach + "',N'" + sObj.TenSach + "',N'" + sObj.TacGia + "',N'" + sObj.TheLoai + "','" + sObj.SoLuongTon + "','" + sObj.DonGiaBanCuaDauSach + "')";
-
+        
             cmdSql.CommandType = CommandType.Text;
             cmdSql.Connection = conSql.Connection;
 

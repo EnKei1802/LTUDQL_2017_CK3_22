@@ -23,6 +23,6 @@ namespace QuanLyNhaSach.Object
             this.MaKhachHang = maKhachHang;
             this.NgayLapHoaDon = ngayLap;
         }
-
+    
     }
 }

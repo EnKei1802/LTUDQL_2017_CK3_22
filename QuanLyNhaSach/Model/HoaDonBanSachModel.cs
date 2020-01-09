@@ -12,6 +12,7 @@ namespace QuanLyNhaSach.Model
     class HoaDonBanSachModel
     {
         ConnectToSQL conSql = new ConnectToSQL();
+
         SqlCommand cmdSql = new SqlCommand();
 
         public DataTable GetData()

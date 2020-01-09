@@ -41,7 +41,6 @@ namespace QuanLyNhaSach.Model
         public bool AddData(KhachHangObj khObj)
         {
             cmdSql.CommandText = "insert into KHACHHANG values('"+ khObj.MaKH + "',N'" + khObj.HoTen + "',N'" + khObj.DiaChi + "','" + khObj.DienThoai + "','" + khObj.Email + "','" + khObj.TienNo + "')";
-
             cmdSql.CommandType = CommandType.Text;
             cmdSql.Connection = conSql.Connection;
 

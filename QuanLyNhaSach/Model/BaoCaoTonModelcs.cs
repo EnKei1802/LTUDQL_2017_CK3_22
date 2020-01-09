@@ -8,5 +8,6 @@ namespace QuanLyNhaSach.Model
 {
     class BaoCaoTonModelcs
     {
+
     }
 }

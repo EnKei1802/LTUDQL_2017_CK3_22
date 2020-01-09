@@ -24,6 +24,7 @@ namespace QuanLyNhaSach.Control
             return sModel.AddData(sObj);
         }
         public bool updateData(SachObject sObj)
+
         {
 
             return sModel.UpdateData(sObj);

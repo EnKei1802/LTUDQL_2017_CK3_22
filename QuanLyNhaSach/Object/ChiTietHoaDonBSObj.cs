@@ -8,7 +8,6 @@ namespace QuanLyNhaSach.Object
 {
     class ChiTietHoaDonBSObj
     {
-       
         private string maCTHoaDon;
         private string maSach;
         private string maHoaDon;

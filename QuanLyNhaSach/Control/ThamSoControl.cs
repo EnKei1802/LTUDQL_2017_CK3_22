@@ -8,5 +8,6 @@ namespace QuanLyNhaSach.Control
 {
     class ThamSoControl
     {
+
     }
 }

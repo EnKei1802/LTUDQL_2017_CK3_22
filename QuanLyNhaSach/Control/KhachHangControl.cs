@@ -27,5 +27,6 @@ namespace QuanLyNhaSach.Control
         {
             return khModel.DeleteData(ma);
         }
+
     }
 }

@@ -6,7 +6,24 @@ using System.Threading.Tasks;
 
 namespace QuanLyNhaSach.Control
 {
-    class PhieuNhapControl
+   /* class PhieuNhapControl
     {
-    }
+        HoaDonBanSachModel hdModel = new HoaDonBanSachModel();
+
+        public DataTable getDaTa()
+        {
+
+            return hdModel.GetData();
+        }
+        public bool addData(HoaDonBanSachObj hdObj)
+        {
+
+            return hdModel.AddData(hdObj);
+        }
+
+        public bool deleteData(string ma)
+        {
+            return hdModel.DeleteData(ma);
+        }
+    }*/
 }

@@ -8,6 +8,7 @@ namespace QuanLyNhaSach.Object
 {
     class ThamSoObj
     {
+
         private int soLuongNhapItNhat;
         private int soLuongTonItNhatDeNhap;
         private int soTienKhachHangNoToiDa;

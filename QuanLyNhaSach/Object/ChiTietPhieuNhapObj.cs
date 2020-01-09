@@ -23,6 +23,7 @@ namespace QuanLyNhaSach.Object
             this.maSach = maSach;
             this.maPhieuNhap = maPhieuNhap;
             this.soLuongNhap = soLuongNhap;
+
         }
     }
 }

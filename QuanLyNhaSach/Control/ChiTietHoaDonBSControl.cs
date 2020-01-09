@@ -26,6 +26,7 @@ namespace QuanLyNhaSach.Control
         public bool deleteData(string ma)
         {
             return cthdModel.DeleteData(ma);
+
         }
     }
 }

@@ -31,6 +31,7 @@ namespace QuanLyNhaSach.Object
             this.dienThoai = dienThoai;
             this.email = email;
             this.tienNo = tienNo;
+
         }
     }
 }

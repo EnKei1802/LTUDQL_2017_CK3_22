@@ -8,6 +8,7 @@ namespace QuanLyNhaSach.Object
 {
     class SachObject
     {
+
         private string maSach;
         private string tenSach;
         private string tacGia;
