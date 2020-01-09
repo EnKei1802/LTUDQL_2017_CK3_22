@@ -8,6 +8,13 @@ namespace QuanLyNhaSach.Object
 {
     class ChiTietPhieuNhapObj
     {
-        //code o day
+        private string maChiTietPhieuNhap;
+        private string maSach;
+        private string maPhieuNhap;
+        private int soLuongNhap;
+        public string MaChiTietPhieuNhap { get => maChiTietPhieuNhap; set => maChiTietPhieuNhap = value; }
+        public string MaSach { get => maSach; set => maSach = value; }
+        public string MaPhieuNhap { get => maPhieuNhap; set => maPhieuNhap = value; }
+        public int SoLuongNhap { get => soLuongNhap; set => soLuongNhap = value; }
     }
 }

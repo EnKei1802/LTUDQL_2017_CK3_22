@@ -8,6 +8,9 @@ namespace QuanLyNhaSach.Object
 {
     class BaoCaoTonObj
     {
-        //code o day
+        private string maBaoCaoTon;
+        private DateTime thang;
+        public string MaBaoCaoTon { get => maBaoCaoTon; set => maBaoCaoTon=value; }
+        public DateTime Thang { get => thang; set => thang=value; }
     }
 }

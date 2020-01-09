@@ -8,6 +8,13 @@ namespace QuanLyNhaSach.Object
 {
     class ThamSoObj
     {
-        //code o day
+        private int soLuongNhapItNhat;
+        private int soLuongTonItNhatDeNhap;
+        private int soTienKhachHangNoToiDa;
+        private int soLuongTonToiDaDeBan;
+        public int SoLuongNhapItNhat { get => soLuongNhapItNhat; set => soLuongNhapItNhat = value; }
+        public int SoLuongTonItNhatDeNhap { get => soLuongTonItNhatDeNhap; set => soLuongTonItNhatDeNhap = value; }
+        public int SoTienKhachHangNoToiDa { get => soTienKhachHangNoToiDa; set => soTienKhachHangNoToiDa = value; }
+        public int SoLuongTonToiDaDeBan { get => soLuongTonToiDaDeBan; set => soLuongTonToiDaDeBan = value; }
     }
 }
