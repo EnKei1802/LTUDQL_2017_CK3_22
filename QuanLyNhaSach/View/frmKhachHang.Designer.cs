@@ -211,7 +211,7 @@
             // 
             // bntXoa
             // 
-            this.bntXoa.Location = new System.Drawing.Point(384, 267);
+            this.bntXoa.Location = new System.Drawing.Point(389, 267);
             this.bntXoa.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.bntXoa.Name = "bntXoa";
             this.bntXoa.Size = new System.Drawing.Size(99, 42);

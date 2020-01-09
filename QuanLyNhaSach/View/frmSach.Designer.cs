@@ -72,7 +72,7 @@
             // 
             // bntLuu
             // 
-            this.bntLuu.Location = new System.Drawing.Point(603, 258);
+            this.bntLuu.Location = new System.Drawing.Point(613, 258);
             this.bntLuu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.bntLuu.Name = "bntLuu";
             this.bntLuu.Size = new System.Drawing.Size(109, 62);

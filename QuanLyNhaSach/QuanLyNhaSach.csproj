@@ -161,8 +161,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-
-
     <EmbeddedResource Include="View\frmBaoCaoCongNo.resx">
       <DependentUpon>frmBaoCaoCongNo.cs</DependentUpon>
     </EmbeddedResource>
@@ -178,8 +176,17 @@
     <EmbeddedResource Include="View\frmPhieuNhapSach.resx">
       <DependentUpon>frmPhieuNhapSach.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="View\frmPhieuThuTien.resx">
+      <DependentUpon>frmPhieuThuTien.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\frmSach.resx">
       <DependentUpon>frmSach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmThamSo.resx">
+      <DependentUpon>frmThamSo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmTraCuu.resx">
+      <DependentUpon>frmTraCuu.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

@@ -110,7 +110,7 @@
             // 
             // txtNoDau
             // 
-            this.txtNoDau.Location = new System.Drawing.Point(97, 156);
+            this.txtNoDau.Location = new System.Drawing.Point(99, 155);
             this.txtNoDau.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtNoDau.Name = "txtNoDau";
             this.txtNoDau.Size = new System.Drawing.Size(169, 22);
