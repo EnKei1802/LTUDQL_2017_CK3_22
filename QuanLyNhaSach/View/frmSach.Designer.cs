@@ -125,7 +125,7 @@
             this.groupBox2.Size = new System.Drawing.Size(873, 234);
             this.groupBox2.TabIndex = 8;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Danh sách khách hàng";
+            this.groupBox2.Text = "Danh sách sách";
             // 
             // dgvDSSach
             // 
@@ -139,7 +139,7 @@
             this.SoLuongTon,
             this.DonGiaBanCuaDauSach});
             this.dgvDSSach.Location = new System.Drawing.Point(0, 21);
-            this.dgvDSSach.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dgvDSSach.Margin = new System.Windows.Forms.Padding(4);
             this.dgvDSSach.Name = "dgvDSSach";
             this.dgvDSSach.Size = new System.Drawing.Size(873, 207);
             this.dgvDSSach.TabIndex = 0;
@@ -203,7 +203,7 @@
             this.groupBox1.Size = new System.Drawing.Size(873, 212);
             this.groupBox1.TabIndex = 7;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Thông tin khách hàng";
+            this.groupBox1.Text = "Thông tin sách";
             this.groupBox1.UseWaitCursor = true;
             // 
             // txtDonGiaBanCuaDauSach

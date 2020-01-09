@@ -24,7 +24,7 @@ namespace QuanLyNhaSach.View
 
         private void frmHoaDonBanSach_Load(object sender, EventArgs e)
         {
-<<<<<<< HEAD
+
             DataTable dt = new DataTable();
             dt = hdControl.getDaTa();
             dtgvHoaDonBanSach.DataSource = dt;
@@ -38,9 +38,7 @@ namespace QuanLyNhaSach.View
             cbMaKhachHang.DataBindings.Add("Text", dtgvHoaDonBanSach.DataSource, "HoTen");
             txtNgayLapHoaDon.DataBindings.Clear();
             txtNgayLapHoaDon.DataBindings.Add("Text", dtgvHoaDonBanSach.DataSource, "NgayLapHoaDon");
-=======
 
->>>>>>> c3bd06dd21ab78017e86891ce35ef0910ab51d99
         }
     }
 }
