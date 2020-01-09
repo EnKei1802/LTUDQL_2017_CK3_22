@@ -20,7 +20,7 @@ namespace QuanLyNhaSach.Object
         HoaDonBanSachObj(string maHoaDon, string maKhachHang, DateTime ngayLap)
         {
             this.MaHoaDon = maHoaDon;
-            this.MaKhachHang = MaKhachHang;
+            this.MaKhachHang = maKhachHang;
             this.NgayLapHoaDon = ngayLap;
         }
 
