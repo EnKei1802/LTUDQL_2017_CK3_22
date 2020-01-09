@@ -12,6 +12,12 @@ namespace QuanLyNhaSach.Object
         private DateTime thang;
         public string MaBaoCaoCongNo { get => maBaoCaoCongNo; set => maBaoCaoCongNo = value; }
         public DateTime Thang { get => thang; set => thang = value; }
+        public BaoCaoCongNoObj() { }
+        public BaoCaoCongNoObj(string maBaoCaoCongNo,DateTime thang)
+        { 
+            this.maBaoCaoCongNo = maBaoCaoCongNo;
+            this.thang = thang;
+        }
     }
 }
 

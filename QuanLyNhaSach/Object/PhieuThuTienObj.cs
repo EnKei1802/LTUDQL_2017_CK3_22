@@ -18,5 +18,13 @@ namespace QuanLyNhaSach.Object
         public string MaKhachHang { get => maKhachHang; set => maKhachHang = value; }
         public DateTime NgayThuTien { get => ngayThuTien; set => ngayThuTien = value; }
         public float SoTienThu { get => soTienThu; set => soTienThu = value; }
+        public PhieuThuTienObj() { }
+        public PhieuThuTienObj(string maPhieuThuTien,string maKhachHang,DateTime ngayThuTien,float soTienThu)
+        {
+            this.maPhieuThuTien = maPhieuThuTien;
+            this.maKhachHang = maKhachHang;
+            this.ngayThuTien = ngayThuTien;
+            this.soTienThu = soTienThu;
+        }
     }
 }

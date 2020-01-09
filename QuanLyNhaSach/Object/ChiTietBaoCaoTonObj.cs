@@ -20,5 +20,16 @@ namespace QuanLyNhaSach.Object
         public float TonDau { get => tonDau; set => tonDau = value; }
         public float PhatSinh { get => phatSinh; set => phatSinh = value; }
         public float TonCuoi { get => tonCuoi; set => tonCuoi = value; }
+        public ChiTietBaoCaoTonObj() { }
+        public ChiTietBaoCaoTonObj(string maCTBaoCaoTon,string maSach,string maBaoCaoTon,float tonDau,float phatSinh,float tonCuoi
+)
+        {
+            this.maCTBaoCaoTon = maCTBaoCaoTon;
+            this.maSach = maSach;
+            this.maBaoCaoTon = maBaoCaoTon;
+            this.tonDau = tonDau;
+            this.phatSinh = phatSinh;
+            this.tonCuoi = tonCuoi;
+        }
     }
 }

@@ -30,3 +30,7 @@ H:\DoAn_LTQLUD\QuanLyNhaSach\obj\Debug\QuanLyNhaSach.csproj.GenerateResource.cac
 H:\DoAn_LTQLUD\QuanLyNhaSach\obj\Debug\QuanLyNhaSach.csproj.CoreCompileInputs.cache
 H:\DoAn_LTQLUD\QuanLyNhaSach\obj\Debug\QuanLyNhaSach.exe
 H:\DoAn_LTQLUD\QuanLyNhaSach\obj\Debug\QuanLyNhaSach.pdb
+C:\Users\voduc\OneDrive\Desktop\git\LTUDQL_2017_CK3_22\QuanLyNhaSach\obj\Debug\QuanLyNhaSach.View.frmBaoCaoCongNo.resources
+C:\Users\voduc\OneDrive\Desktop\git\LTUDQL_2017_CK3_22\QuanLyNhaSach\obj\Debug\QuanLyNhaSach.View.frmBaoCaoTon.resources
+C:\Users\voduc\OneDrive\Desktop\git\LTUDQL_2017_CK3_22\QuanLyNhaSach\obj\Debug\QuanLyNhaSach.View.frmHoaDonBanSach.resources
+C:\Users\voduc\OneDrive\Desktop\git\LTUDQL_2017_CK3_22\QuanLyNhaSach\obj\Debug\QuanLyNhaSach.View.frmPhieuNhapSach.resources
