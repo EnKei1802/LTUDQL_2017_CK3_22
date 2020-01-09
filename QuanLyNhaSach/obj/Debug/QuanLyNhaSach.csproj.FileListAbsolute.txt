@@ -19,3 +19,14 @@ C:\Users\voduc\OneDrive\Desktop\git\LTUDQL_2017_CK3_22\QuanLyNhaSach\obj\Debug\Q
 C:\Users\voduc\OneDrive\Desktop\git\LTUDQL_2017_CK3_22\QuanLyNhaSach\bin\Debug\QuanLyNhaSach.exe.config
 C:\Users\voduc\OneDrive\Desktop\git\LTUDQL_2017_CK3_22\QuanLyNhaSach\bin\Debug\QuanLyNhaSach.exe
 C:\Users\voduc\OneDrive\Desktop\git\LTUDQL_2017_CK3_22\QuanLyNhaSach\bin\Debug\QuanLyNhaSach.pdb
+H:\DoAn_LTQLUD\QuanLyNhaSach\bin\Debug\QuanLyNhaSach.exe.config
+H:\DoAn_LTQLUD\QuanLyNhaSach\bin\Debug\QuanLyNhaSach.exe
+H:\DoAn_LTQLUD\QuanLyNhaSach\bin\Debug\QuanLyNhaSach.pdb
+H:\DoAn_LTQLUD\QuanLyNhaSach\obj\Debug\QuanLyNhaSach.csprojAssemblyReference.cache
+H:\DoAn_LTQLUD\QuanLyNhaSach\obj\Debug\QuanLyNhaSach.Properties.Resources.resources
+H:\DoAn_LTQLUD\QuanLyNhaSach\obj\Debug\QuanLyNhaSach.View.frmKhachHang.resources
+H:\DoAn_LTQLUD\QuanLyNhaSach\obj\Debug\QuanLyNhaSach.View.frmSach.resources
+H:\DoAn_LTQLUD\QuanLyNhaSach\obj\Debug\QuanLyNhaSach.csproj.GenerateResource.cache
+H:\DoAn_LTQLUD\QuanLyNhaSach\obj\Debug\QuanLyNhaSach.csproj.CoreCompileInputs.cache
+H:\DoAn_LTQLUD\QuanLyNhaSach\obj\Debug\QuanLyNhaSach.exe
+H:\DoAn_LTQLUD\QuanLyNhaSach\obj\Debug\QuanLyNhaSach.pdb
