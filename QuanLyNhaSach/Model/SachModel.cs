@@ -40,7 +40,7 @@ namespace QuanLyNhaSach.Model
 
         public bool AddData(SachObject sObj)
         {
-            cmdSql.CommandText = "insert into SACH values('" + sObj.MaSach + "','" + sObj.TenSach + "','" + sObj.TacGia + "','" + sObj.TheLoai + "','" + sObj.SoLuongTon + "','" + sObj.DonGiaBanCuaDauSach + "')";
+            cmdSql.CommandText = "insert into SACH values('" + sObj.MaSach + "',N'" + sObj.TenSach + "',N'" + sObj.TacGia + "',N'" + sObj.TheLoai + "','" + sObj.SoLuongTon + "','" + sObj.DonGiaBanCuaDauSach + "')";
 
             cmdSql.CommandType = CommandType.Text;
             cmdSql.Connection = conSql.Connection;
@@ -50,6 +50,7 @@ namespace QuanLyNhaSach.Model
                 conSql.OpenConn();
                 cmdSql.ExecuteNonQuery();
                 conSql.CloseConn();
+                return true;
             }
             catch (Exception ex)
             {
@@ -61,7 +62,7 @@ namespace QuanLyNhaSach.Model
         }
         public bool UpdateData(SachObject sObj)
         {
-            cmdSql.CommandText = "update  SACH set HoTen = '" + sObj.TenSach + "', DiaChi = '" + sObj.TacGia + "',DienTHoai = '" + sObj.TheLoai + "',Email = '" + sObj.SoLuongTon + "', TienNo = " + sObj.DonGiaBanCuaDauSach + "'where MaSach ='" + sObj.MaSach + "'";
+            cmdSql.CommandText = "update  SACH set TenSach = N'" + sObj.TenSach + "', TacGia = N'" + sObj.TacGia + "',TheLoai = N'" + sObj.TheLoai + "',SoLuongTon = '" + sObj.SoLuongTon + "', DonGiaBanCuaDauSach = " + sObj.DonGiaBanCuaDauSach + " where MaSach ='" + sObj.MaSach + "'";
 
             cmdSql.CommandType = CommandType.Text;
             cmdSql.Connection = conSql.Connection;
@@ -71,6 +72,7 @@ namespace QuanLyNhaSach.Model
                 conSql.OpenConn();
                 cmdSql.ExecuteNonQuery();
                 conSql.CloseConn();
+                return true;
             }
             catch (Exception ex)
             {
@@ -91,6 +93,7 @@ namespace QuanLyNhaSach.Model
                 conSql.OpenConn();
                 cmdSql.ExecuteNonQuery();
                 conSql.CloseConn();
+                return true;
             }
             catch (Exception ex)
             {

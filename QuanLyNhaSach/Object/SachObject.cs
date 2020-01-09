@@ -19,7 +19,7 @@ namespace QuanLyNhaSach.Object
         public string TenSach { get => tenSach; set => tenSach = value; }
         public string TacGia { get => tacGia; set => tacGia = value; }
         public string TheLoai { get => theLoai; set => theLoai = value; }
-        public int SoLuongTon { get => SoLuongTon; set => SoLuongTon = value; }
+        public int SoLuongTon { get => soLuongTon; set => soLuongTon = value; }
         public float DonGiaBanCuaDauSach { get => donGiaBanCuaDauSach; set => donGiaBanCuaDauSach = value; }
 
         public SachObject() { }
