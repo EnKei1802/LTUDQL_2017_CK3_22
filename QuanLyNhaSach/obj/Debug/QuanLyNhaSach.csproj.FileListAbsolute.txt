@@ -9,3 +9,13 @@ H:\DoAn_LTUDQL\QuanLyNhaSach\obj\Debug\QuanLyNhaSach.csproj.CoreCompileInputs.ca
 H:\DoAn_LTUDQL\QuanLyNhaSach\obj\Debug\QuanLyNhaSach.exe
 H:\DoAn_LTUDQL\QuanLyNhaSach\obj\Debug\QuanLyNhaSach.pdb
 H:\DoAn_LTUDQL\QuanLyNhaSach\obj\Debug\QuanLyNhaSach.View.frmSach.resources
+C:\Users\voduc\OneDrive\Desktop\git\LTUDQL_2017_CK3_22\QuanLyNhaSach\obj\Debug\QuanLyNhaSach.csprojAssemblyReference.cache
+C:\Users\voduc\OneDrive\Desktop\git\LTUDQL_2017_CK3_22\QuanLyNhaSach\obj\Debug\QuanLyNhaSach.Properties.Resources.resources
+C:\Users\voduc\OneDrive\Desktop\git\LTUDQL_2017_CK3_22\QuanLyNhaSach\obj\Debug\QuanLyNhaSach.View.frmKhachHang.resources
+C:\Users\voduc\OneDrive\Desktop\git\LTUDQL_2017_CK3_22\QuanLyNhaSach\obj\Debug\QuanLyNhaSach.View.frmSach.resources
+C:\Users\voduc\OneDrive\Desktop\git\LTUDQL_2017_CK3_22\QuanLyNhaSach\obj\Debug\QuanLyNhaSach.csproj.GenerateResource.cache
+C:\Users\voduc\OneDrive\Desktop\git\LTUDQL_2017_CK3_22\QuanLyNhaSach\obj\Debug\QuanLyNhaSach.exe
+C:\Users\voduc\OneDrive\Desktop\git\LTUDQL_2017_CK3_22\QuanLyNhaSach\obj\Debug\QuanLyNhaSach.pdb
+C:\Users\voduc\OneDrive\Desktop\git\LTUDQL_2017_CK3_22\QuanLyNhaSach\bin\Debug\QuanLyNhaSach.exe.config
+C:\Users\voduc\OneDrive\Desktop\git\LTUDQL_2017_CK3_22\QuanLyNhaSach\bin\Debug\QuanLyNhaSach.exe
+C:\Users\voduc\OneDrive\Desktop\git\LTUDQL_2017_CK3_22\QuanLyNhaSach\bin\Debug\QuanLyNhaSach.pdb
