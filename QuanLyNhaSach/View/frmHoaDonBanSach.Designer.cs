@@ -42,7 +42,7 @@
             this.bntXoaHoaDon = new System.Windows.Forms.Button();
             this.bntInHoaDon = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dtgvCTHoaDonBS = new System.Windows.Forms.DataGridView();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -52,11 +52,11 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.cbMaCTHoaDon = new System.Windows.Forms.ComboBox();
+            this.cbMaHoaDon = new System.Windows.Forms.ComboBox();
+            this.cbSach = new System.Windows.Forms.ComboBox();
+            this.txtDonGia = new System.Windows.Forms.TextBox();
+            this.txtSoLuongBan = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.bntLuuHoaDon = new System.Windows.Forms.Button();
             this.bntHuyHoaDon = new System.Windows.Forms.Button();
@@ -66,7 +66,7 @@
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvHoaDonBanSach)).BeginInit();
             this.groupBox3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgvCTHoaDonBS)).BeginInit();
             this.groupBox4.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.SuspendLayout();
@@ -196,11 +196,11 @@
             this.groupBox3.Controls.Add(this.bntHuyCTHoaDon);
             this.groupBox3.Controls.Add(this.bntThemCTHoaDon);
             this.groupBox3.Controls.Add(this.label6);
-            this.groupBox3.Controls.Add(this.textBox2);
-            this.groupBox3.Controls.Add(this.textBox1);
-            this.groupBox3.Controls.Add(this.comboBox3);
-            this.groupBox3.Controls.Add(this.comboBox2);
-            this.groupBox3.Controls.Add(this.comboBox1);
+            this.groupBox3.Controls.Add(this.txtSoLuongBan);
+            this.groupBox3.Controls.Add(this.txtDonGia);
+            this.groupBox3.Controls.Add(this.cbSach);
+            this.groupBox3.Controls.Add(this.cbMaHoaDon);
+            this.groupBox3.Controls.Add(this.cbMaCTHoaDon);
             this.groupBox3.Controls.Add(this.tabControl1);
             this.groupBox3.Controls.Add(this.label5);
             this.groupBox3.Controls.Add(this.label4);
@@ -215,18 +215,18 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Chi tiết hóa đơn";
             // 
-            // dataGridView1
+            // dtgvCTHoaDonBS
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 34);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(551, 135);
-            this.dataGridView1.TabIndex = 9;
+            this.dtgvCTHoaDonBS.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtgvCTHoaDonBS.Location = new System.Drawing.Point(0, 34);
+            this.dtgvCTHoaDonBS.Name = "dtgvCTHoaDonBS";
+            this.dtgvCTHoaDonBS.RowTemplate.Height = 24;
+            this.dtgvCTHoaDonBS.Size = new System.Drawing.Size(551, 135);
+            this.dtgvCTHoaDonBS.TabIndex = 9;
             // 
             // groupBox4
             // 
-            this.groupBox4.Controls.Add(this.dataGridView1);
+            this.groupBox4.Controls.Add(this.dtgvCTHoaDonBS);
             this.groupBox4.Location = new System.Drawing.Point(6, 287);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(551, 169);
@@ -309,43 +309,43 @@
             this.tabPage2.Text = "tabPage2";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // comboBox1
+            // cbMaCTHoaDon
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(213, 33);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(158, 24);
-            this.comboBox1.TabIndex = 17;
+            this.cbMaCTHoaDon.FormattingEnabled = true;
+            this.cbMaCTHoaDon.Location = new System.Drawing.Point(213, 33);
+            this.cbMaCTHoaDon.Name = "cbMaCTHoaDon";
+            this.cbMaCTHoaDon.Size = new System.Drawing.Size(158, 24);
+            this.cbMaCTHoaDon.TabIndex = 17;
             // 
-            // comboBox2
+            // cbMaHoaDon
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(213, 76);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(158, 24);
-            this.comboBox2.TabIndex = 18;
+            this.cbMaHoaDon.FormattingEnabled = true;
+            this.cbMaHoaDon.Location = new System.Drawing.Point(213, 76);
+            this.cbMaHoaDon.Name = "cbMaHoaDon";
+            this.cbMaHoaDon.Size = new System.Drawing.Size(158, 24);
+            this.cbMaHoaDon.TabIndex = 18;
             // 
-            // comboBox3
+            // cbSach
             // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(213, 119);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(158, 24);
-            this.comboBox3.TabIndex = 19;
+            this.cbSach.FormattingEnabled = true;
+            this.cbSach.Location = new System.Drawing.Point(213, 119);
+            this.cbSach.Name = "cbSach";
+            this.cbSach.Size = new System.Drawing.Size(158, 24);
+            this.cbSach.TabIndex = 19;
             // 
-            // textBox1
+            // txtDonGia
             // 
-            this.textBox1.Location = new System.Drawing.Point(132, 191);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 22);
-            this.textBox1.TabIndex = 20;
+            this.txtDonGia.Location = new System.Drawing.Point(132, 191);
+            this.txtDonGia.Name = "txtDonGia";
+            this.txtDonGia.Size = new System.Drawing.Size(100, 22);
+            this.txtDonGia.TabIndex = 20;
             // 
-            // textBox2
+            // txtSoLuongBan
             // 
-            this.textBox2.Location = new System.Drawing.Point(425, 194);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 22);
-            this.textBox2.TabIndex = 21;
+            this.txtSoLuongBan.Location = new System.Drawing.Point(425, 194);
+            this.txtSoLuongBan.Name = "txtSoLuongBan";
+            this.txtSoLuongBan.Size = new System.Drawing.Size(100, 22);
+            this.txtSoLuongBan.TabIndex = 21;
             // 
             // label6
             // 
@@ -414,7 +414,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dtgvHoaDonBanSach)).EndInit();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgvCTHoaDonBS)).EndInit();
             this.groupBox4.ResumeLayout(false);
             this.tabControl1.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -440,11 +440,11 @@
         private System.Windows.Forms.Button bntHuyCTHoaDon;
         private System.Windows.Forms.Button bntThemCTHoaDon;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.TextBox txtSoLuongBan;
+        private System.Windows.Forms.TextBox txtDonGia;
+        private System.Windows.Forms.ComboBox cbSach;
+        private System.Windows.Forms.ComboBox cbMaHoaDon;
+        private System.Windows.Forms.ComboBox cbMaCTHoaDon;
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;
@@ -454,7 +454,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dtgvCTHoaDonBS;
         private System.Windows.Forms.Button bntLuuHoaDon;
         private System.Windows.Forms.Button bntHuyHoaDon;
     }

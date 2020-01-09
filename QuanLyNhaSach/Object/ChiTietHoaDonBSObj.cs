@@ -8,6 +8,7 @@ namespace QuanLyNhaSach.Object
 {
     class ChiTietHoaDonBSObj
     {
+       
         private string maCTHoaDon;
         private string maSach;
         private string maHoaDon;
@@ -18,5 +19,16 @@ namespace QuanLyNhaSach.Object
         public string MaHoaDon { get => maHoaDon; set => maHoaDon = value; }
         public int SoLuongBan { get => soLuongBan; set => soLuongBan = value; }
         public float DonGiaBanCuaHoaDon { get => donGiaBanCuaHoaDon; set => donGiaBanCuaHoaDon = value; }
+
+        ChiTietHoaDonBSObj() { }
+        ChiTietHoaDonBSObj(string maCT, string maSach , string maHoaDon , int soLuong, float donGia)
+        {
+            this.MaCTHoaDon = maCT;
+            this.MaSach = maSach;
+            this.MaHoaDon = maHoaDon;
+            this.SoLuongBan = soLuong;
+            this.DonGiaBanCuaHoaDon = donGia;
+        }
     }
+
 }

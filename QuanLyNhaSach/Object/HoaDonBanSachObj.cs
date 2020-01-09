@@ -14,5 +14,15 @@ namespace QuanLyNhaSach.Object
         public string MaHoaDon { get => maHoaDon; set => maHoaDon = value; }
         public string MaKhachHang { get => maKhachHang; set => maKhachHang = value; }
         public DateTime NgayLapHoaDon { get => ngayLapHoaDon; set => ngayLapHoaDon = value; }
+
+
+        HoaDonBanSachObj() { }
+        HoaDonBanSachObj(string maHoaDon, string maKhachHang, DateTime ngayLap)
+        {
+            this.MaHoaDon = maHoaDon;
+            this.MaKhachHang = MaKhachHang;
+            this.NgayLapHoaDon = ngayLap;
+        }
+
     }
 }

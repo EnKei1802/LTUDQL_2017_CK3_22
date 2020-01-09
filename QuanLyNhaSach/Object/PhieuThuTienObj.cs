@@ -8,7 +8,6 @@ namespace QuanLyNhaSach.Object
 {
     class PhieuThuTienObj
     {
-        //code o day
         private string maPhieuThuTien;
         private string maKhachHang;
         private DateTime ngayThuTien;
