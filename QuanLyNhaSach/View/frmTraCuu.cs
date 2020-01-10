@@ -16,5 +16,17 @@ namespace QuanLyNhaSach.View
         {
             InitializeComponent();
         }
+
+        private void bntTraCuuSach_Click(object sender, EventArgs e)
+        {
+            frmSach pnt = new frmSach();
+            pnt.Show();
+        }
+
+        private void bntTraCuuKhachHang_Click(object sender, EventArgs e)
+        {
+            frmKhachHang pnt = new frmKhachHang();
+            pnt.Show();
+        }
     }
 }

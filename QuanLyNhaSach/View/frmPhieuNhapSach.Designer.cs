@@ -36,10 +36,10 @@
             this.bntHuyCTPhieuNhapSach = new System.Windows.Forms.Button();
             this.bntThemCTPhieuNhapSach = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.txtMaChiTietHoaDon = new System.Windows.Forms.TextBox();
-            this.txtSoLuongBan = new System.Windows.Forms.TextBox();
+            this.txtTenSach = new System.Windows.Forms.TextBox();
+            this.txtSoLuongNhap = new System.Windows.Forms.TextBox();
             this.cbMaPhieuNhap = new System.Windows.Forms.ComboBox();
-            this.cbMaSach = new System.Windows.Forms.ComboBox();
+            this.cbMaCTPhieuNhap = new System.Windows.Forms.ComboBox();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -52,7 +52,7 @@
             this.bntTaoMoiPhieuNhap = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.btnNgayLap = new System.Windows.Forms.Button();
+            this.btnCham = new System.Windows.Forms.Button();
             this.txtNgayLap = new System.Windows.Forms.TextBox();
             this.txtMaPhieuNhap = new System.Windows.Forms.TextBox();
             this.NgayLap = new System.Windows.Forms.Label();
@@ -74,6 +74,7 @@
             this.bntHuyPhieuNhap.TabIndex = 18;
             this.bntHuyPhieuNhap.Text = "Hủy phiếu nhập";
             this.bntHuyPhieuNhap.UseVisualStyleBackColor = true;
+            this.bntHuyPhieuNhap.Click += new System.EventHandler(this.bntHuyPhieuNhap_Click);
             // 
             // dgvDSCTPhieuNhap
             // 
@@ -116,6 +117,7 @@
             this.bntLuuPhieuNhap.TabIndex = 17;
             this.bntLuuPhieuNhap.Text = "Lưu phiếu nhập";
             this.bntLuuPhieuNhap.UseVisualStyleBackColor = true;
+            this.bntLuuPhieuNhap.Click += new System.EventHandler(this.bntLuuPhieuNhap_Click);
             // 
             // bntHuyCTPhieuNhapSach
             // 
@@ -126,6 +128,7 @@
             this.bntHuyCTPhieuNhapSach.TabIndex = 24;
             this.bntHuyCTPhieuNhapSach.Text = "Bớt";
             this.bntHuyCTPhieuNhapSach.UseVisualStyleBackColor = true;
+            this.bntHuyCTPhieuNhapSach.Click += new System.EventHandler(this.bntHuyCTPhieuNhapSach_Click);
             // 
             // bntThemCTPhieuNhapSach
             // 
@@ -136,16 +139,17 @@
             this.bntThemCTPhieuNhapSach.TabIndex = 23;
             this.bntThemCTPhieuNhapSach.Text = "Thêm";
             this.bntThemCTPhieuNhapSach.UseVisualStyleBackColor = true;
+            this.bntThemCTPhieuNhapSach.Click += new System.EventHandler(this.bntThemCTPhieuNhapSach_Click);
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.txtMaChiTietHoaDon);
+            this.groupBox3.Controls.Add(this.txtTenSach);
             this.groupBox3.Controls.Add(this.dgvDSCTPhieuNhap);
             this.groupBox3.Controls.Add(this.bntHuyCTPhieuNhapSach);
             this.groupBox3.Controls.Add(this.bntThemCTPhieuNhapSach);
-            this.groupBox3.Controls.Add(this.txtSoLuongBan);
+            this.groupBox3.Controls.Add(this.txtSoLuongNhap);
             this.groupBox3.Controls.Add(this.cbMaPhieuNhap);
-            this.groupBox3.Controls.Add(this.cbMaSach);
+            this.groupBox3.Controls.Add(this.cbMaCTPhieuNhap);
             this.groupBox3.Controls.Add(this.tabControl1);
             this.groupBox3.Controls.Add(this.label4);
             this.groupBox3.Controls.Add(this.label3);
@@ -161,21 +165,21 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Chi tiết phiếu nhập";
             // 
-            // txtMaChiTietHoaDon
+            // txtTenSach
             // 
-            this.txtMaChiTietHoaDon.Location = new System.Drawing.Point(213, 116);
-            this.txtMaChiTietHoaDon.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.txtMaChiTietHoaDon.Name = "txtMaChiTietHoaDon";
-            this.txtMaChiTietHoaDon.Size = new System.Drawing.Size(159, 22);
-            this.txtMaChiTietHoaDon.TabIndex = 25;
+            this.txtTenSach.Location = new System.Drawing.Point(213, 116);
+            this.txtTenSach.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtTenSach.Name = "txtTenSach";
+            this.txtTenSach.Size = new System.Drawing.Size(159, 22);
+            this.txtTenSach.TabIndex = 25;
             // 
-            // txtSoLuongBan
+            // txtSoLuongNhap
             // 
-            this.txtSoLuongBan.Location = new System.Drawing.Point(213, 160);
-            this.txtSoLuongBan.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.txtSoLuongBan.Name = "txtSoLuongBan";
-            this.txtSoLuongBan.Size = new System.Drawing.Size(159, 22);
-            this.txtSoLuongBan.TabIndex = 21;
+            this.txtSoLuongNhap.Location = new System.Drawing.Point(213, 160);
+            this.txtSoLuongNhap.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtSoLuongNhap.Name = "txtSoLuongNhap";
+            this.txtSoLuongNhap.Size = new System.Drawing.Size(159, 22);
+            this.txtSoLuongNhap.TabIndex = 21;
             // 
             // cbMaPhieuNhap
             // 
@@ -186,14 +190,14 @@
             this.cbMaPhieuNhap.Size = new System.Drawing.Size(159, 24);
             this.cbMaPhieuNhap.TabIndex = 18;
             // 
-            // cbMaSach
+            // cbMaCTPhieuNhap
             // 
-            this.cbMaSach.FormattingEnabled = true;
-            this.cbMaSach.Location = new System.Drawing.Point(213, 33);
-            this.cbMaSach.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.cbMaSach.Name = "cbMaSach";
-            this.cbMaSach.Size = new System.Drawing.Size(159, 24);
-            this.cbMaSach.TabIndex = 17;
+            this.cbMaCTPhieuNhap.FormattingEnabled = true;
+            this.cbMaCTPhieuNhap.Location = new System.Drawing.Point(213, 33);
+            this.cbMaCTPhieuNhap.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.cbMaCTPhieuNhap.Name = "cbMaCTPhieuNhap";
+            this.cbMaCTPhieuNhap.Size = new System.Drawing.Size(159, 24);
+            this.cbMaCTPhieuNhap.TabIndex = 17;
             // 
             // tabControl1
             // 
@@ -211,14 +215,14 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(56, 164);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(92, 17);
+            this.label4.Size = new System.Drawing.Size(100, 17);
             this.label4.TabIndex = 14;
-            this.label4.Text = "Số lượng bán";
+            this.label4.Text = "Số lượng nhập";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(56, 76);
+            this.label3.Location = new System.Drawing.Point(56, 83);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(80, 17);
             this.label3.TabIndex = 13;
@@ -227,16 +231,16 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(56, 33);
+            this.label2.Location = new System.Drawing.Point(56, 121);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(40, 17);
+            this.label2.Size = new System.Drawing.Size(67, 17);
             this.label2.TabIndex = 12;
-            this.label2.Text = "Sách";
+            this.label2.Text = "Tên sách";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(56, 119);
+            this.label1.Location = new System.Drawing.Point(56, 42);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(147, 17);
             this.label1.TabIndex = 11;
@@ -262,6 +266,7 @@
             this.bntInPhieuNhap.TabIndex = 15;
             this.bntInPhieuNhap.Text = "In phiếu nhập";
             this.bntInPhieuNhap.UseVisualStyleBackColor = true;
+            this.bntInPhieuNhap.Click += new System.EventHandler(this.bntInPhieuNhap_Click);
             // 
             // dgvDSPhieuNhap
             // 
@@ -282,6 +287,7 @@
             this.bntXoaPhieuNhap.TabIndex = 14;
             this.bntXoaPhieuNhap.Text = "Xóa phiếu nhập";
             this.bntXoaPhieuNhap.UseVisualStyleBackColor = true;
+            this.bntXoaPhieuNhap.Click += new System.EventHandler(this.bntXoaPhieuNhap_Click);
             // 
             // bntTaoMoiPhieuNhap
             // 
@@ -292,6 +298,7 @@
             this.bntTaoMoiPhieuNhap.TabIndex = 13;
             this.bntTaoMoiPhieuNhap.Text = "Tạo mới phiếu nhập";
             this.bntTaoMoiPhieuNhap.UseVisualStyleBackColor = true;
+            this.bntTaoMoiPhieuNhap.Click += new System.EventHandler(this.bntTaoMoiPhieuNhap_Click);
             // 
             // groupBox2
             // 
@@ -307,7 +314,7 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.btnNgayLap);
+            this.groupBox1.Controls.Add(this.btnCham);
             this.groupBox1.Controls.Add(this.txtNgayLap);
             this.groupBox1.Controls.Add(this.txtMaPhieuNhap);
             this.groupBox1.Controls.Add(this.NgayLap);
@@ -321,15 +328,15 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin phiếu nhập sách";
             // 
-            // btnNgayLap
+            // btnCham
             // 
-            this.btnNgayLap.Location = new System.Drawing.Point(433, 111);
-            this.btnNgayLap.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnNgayLap.Name = "btnNgayLap";
-            this.btnNgayLap.Size = new System.Drawing.Size(28, 23);
-            this.btnNgayLap.TabIndex = 6;
-            this.btnNgayLap.Text = "...";
-            this.btnNgayLap.UseVisualStyleBackColor = true;
+            this.btnCham.Location = new System.Drawing.Point(433, 111);
+            this.btnCham.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnCham.Name = "btnCham";
+            this.btnCham.Size = new System.Drawing.Size(28, 23);
+            this.btnCham.TabIndex = 6;
+            this.btnCham.Text = "...";
+            this.btnCham.UseVisualStyleBackColor = true;
             // 
             // txtNgayLap
             // 
@@ -346,6 +353,7 @@
             this.txtMaPhieuNhap.Name = "txtMaPhieuNhap";
             this.txtMaPhieuNhap.Size = new System.Drawing.Size(189, 22);
             this.txtMaPhieuNhap.TabIndex = 3;
+            this.txtMaPhieuNhap.TextChanged += new System.EventHandler(this.txtMaPhieuNhap_TextChanged);
             // 
             // NgayLap
             // 
@@ -378,9 +386,10 @@
             this.Controls.Add(this.bntTaoMoiPhieuNhap);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmPhieuNhapSach";
             this.Text = "frmNhapSach";
+            this.Load += new System.EventHandler(this.frmPhieuNhapSach_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvDSCTPhieuNhap)).EndInit();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
@@ -403,9 +412,9 @@
         private System.Windows.Forms.Button bntHuyCTPhieuNhapSach;
         private System.Windows.Forms.Button bntThemCTPhieuNhapSach;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.TextBox txtSoLuongBan;
+        private System.Windows.Forms.TextBox txtSoLuongNhap;
         private System.Windows.Forms.ComboBox cbMaPhieuNhap;
-        private System.Windows.Forms.ComboBox cbMaSach;
+        private System.Windows.Forms.ComboBox cbMaCTPhieuNhap;
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
@@ -418,11 +427,11 @@
         private System.Windows.Forms.Button bntTaoMoiPhieuNhap;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button btnNgayLap;
+        private System.Windows.Forms.Button btnCham;
         private System.Windows.Forms.TextBox txtNgayLap;
         private System.Windows.Forms.TextBox txtMaPhieuNhap;
         private System.Windows.Forms.Label NgayLap;
         private System.Windows.Forms.Label MaPhieuNhap;
-        private System.Windows.Forms.TextBox txtMaChiTietHoaDon;
+        private System.Windows.Forms.TextBox txtTenSach;
     }
 }

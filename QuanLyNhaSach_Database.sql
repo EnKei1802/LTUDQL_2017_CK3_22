@@ -55,7 +55,7 @@ create table HOADONBANSACH
 (
 	MaHoaDon varchar(10) primary key,
 	MaKhachHang varchar(10),
-	NgayLapHoaHon smalldatetime ,
+	NgayLapHoaDon smalldatetime ,
 	constraint fk_HOADONBANSACH_KHACHHANG foreign key(MaKhachHang) references KHACHHANG(MaKhachHang)
 )
 create table CHITIETHOADONBS
@@ -101,3 +101,4 @@ create table CHITIETBAOCAOTON
 	SoLuongTonToiDaDeBan int
  )
  select * from KHACHHANG
+ select * from HOADONBANSACH

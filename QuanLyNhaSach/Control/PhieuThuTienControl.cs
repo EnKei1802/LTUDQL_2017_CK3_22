@@ -3,19 +3,23 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data;
+using QuanLyNhaSach.Model;
+using QuanLyNhaSach.Object;
+
 
 namespace QuanLyNhaSach.Control
 {
-   /* class PhieuThuTienControl
+    class PhieuThuTienControl
     {
-        HoaDonBanSachModel hdModel = new HoaDonBanSachModel();
+        PhieuThuTienModel hdModel = new PhieuThuTienModel();
 
         public DataTable getDaTa()
         {
 
             return hdModel.GetData();
         }
-        public bool addData(HoaDonBanSachObj hdObj)
+        public bool addData(PhieuThuTienObj hdObj)
         {
 
             return hdModel.AddData(hdObj);
@@ -25,5 +29,5 @@ namespace QuanLyNhaSach.Control
         {
             return hdModel.DeleteData(ma);
         }
-    }*/
+    }
 }

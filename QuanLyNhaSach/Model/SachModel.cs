@@ -37,7 +37,26 @@ namespace QuanLyNhaSach.Model
             }
             return dt;
         }
-
+        public DataTable GetData(string dieukien)
+        {
+            DataTable dt = new DataTable();
+            cmdSql.CommandText = "select * from SACH" + dieukien;
+            cmdSql.CommandType = CommandType.Text;
+            cmdSql.Connection = conSql.Connection;
+            try
+            {
+                conSql.OpenConn();
+                SqlDataAdapter sda = new SqlDataAdapter(cmdSql);
+                sda.Fill(dt);
+            }
+            catch(Exception ex)
+            {
+                string mex = ex.Message;
+                cmdSql.Dispose();
+            }
+            conSql.CloseConn();
+            return dt;
+        }
         public bool AddData(SachObject sObj)
         {
             cmdSql.CommandText = "insert into SACH values('" + sObj.MaSach + "',N'" + sObj.TenSach + "',N'" + sObj.TacGia + "',N'" + sObj.TheLoai + "','" + sObj.SoLuongTon + "','" + sObj.DonGiaBanCuaDauSach + "')";

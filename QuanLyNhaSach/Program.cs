@@ -17,7 +17,7 @@ namespace QuanLyNhaSach
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmHoaDonBanSach());
+            Application.Run(new Form1());
         }
     }
 }

@@ -1,28 +1,32 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using QuanLyNhaSach.Model;
+using QuanLyNhaSach.Object;
 
 namespace QuanLyNhaSach.Control
 {
-   /* class ChiTietPhieuNhapControl
+  class ChiTietPhieuNhapControl
     {
-        ChiTietHoaDonBSModel cthdModel = new ChiTietHoaDonBSModel();
+        ChiTietPhieuNhapModel ctpnModel = new ChiTietPhieuNhapModel();
 
-        public DataTable getDaTa()
+        public DataTable getDaTa(string ma)
         {
 
-            return cthdModel.GetData();
+            return ctpnModel.GetData(ma);
         }
-        public bool addData(ChiTietHoaDonBSObj cthdObj)
+    
+        public bool addData(DataTable dt)
         {
 
-            return cthdModel.AddData(cthdObj);
+            return ctpnModel.AddData(dt);
         }
         public bool deleteData(string ma)
         {
-            return cthdModel.DeleteData(ma);
+            return ctpnModel.DeleteData(ma);
         }
-    }*/
+    }
 }

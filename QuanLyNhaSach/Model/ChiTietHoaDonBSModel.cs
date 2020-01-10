@@ -16,11 +16,11 @@ namespace QuanLyNhaSach.Model
         ConnectToSQL conSql = new ConnectToSQL();
         SqlCommand cmdSql = new SqlCommand();
 
-        public DataTable GetData()
+        public DataTable GetData(string ma)
         {
             DataTable dt = new DataTable();
 
-            cmdSql.CommandText = @"select cthd.MaCTHoaDon , s.MaSach , hd.MaHoaDon , cthd.SoLuongBan , cthd.DonGiaBanCuaHoaDon from CHITIETHOADONBS cthd , SACH s , HOADONBANSACH hd where cthd.MaSach = s.MaSach and cthd.MaHoaDon = hd.MaHoaDon";
+            cmdSql.CommandText = @"select cthd.MaCTHoaDon , s.TenSach , hd.MaHoaDon , cthd.SoLuongBan , cthd.DonGiaBanCuaHoaDon from CHITIETHOADONBS cthd , SACH s , HOADONBANSACH hd where cthd.MaSach = s.MaSach and cthd.MaHoaDon = hd.MaHoaDon and cthd.MaHoaDon = '"+ma+"'";
             cmdSql.CommandType = CommandType.Text;
             cmdSql.Connection = conSql.Connection;
 
@@ -40,18 +40,20 @@ namespace QuanLyNhaSach.Model
             return dt;
         }
 
-        public bool AddData(ChiTietHoaDonBSObj hdObj)
+        public bool AddData(DataTable dt)
         {
-            cmdSql.CommandText = @" insert into CHITIETHOADONBS values('" + hdObj.MaCTHoaDon + "','" + hdObj.MaSach + "','" + hdObj.MaHoaDon + "','" + hdObj.SoLuongBan + "','" + hdObj.DonGiaBanCuaHoaDon + "')";
-
-            cmdSql.CommandType = CommandType.Text;
-            cmdSql.Connection = conSql.Connection;
-
             try
             {
-                conSql.OpenConn();
-                cmdSql.ExecuteNonQuery();
-                conSql.CloseConn();
+                for(int i = 0; i<dt.Rows.Count;i++)
+                {
+                    cmdSql.CommandText = @" insert into CHITIETHOADONBS values('" + dt.Rows[i][0].ToString() + "','" + dt.Rows[i][1].ToString() + "','" + dt.Rows[i][2].ToString() + "','" + dt.Rows[i][3].ToString() + "','" + dt.Rows[i][4].ToString() + "')";
+
+                    cmdSql.CommandType = CommandType.Text;
+                    cmdSql.Connection = conSql.Connection;
+                    conSql.OpenConn();
+                    cmdSql.ExecuteNonQuery();
+                    conSql.CloseConn();
+                }              
                 return true;
             }
             catch (Exception ex)

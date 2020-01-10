@@ -132,7 +132,12 @@ namespace QuanLyNhaSach.View
 
         private void bntHuy_Click(object sender, EventArgs e)
         {
-            frmSach_Load(sender, e);
+            DialogResult dr = MessageBox.Show("Bạn chắc chắn muốn hủy thao tác đang làm?", "Xác nhận hủy", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
+            if (dr == DialogResult.Yes)
+            {
+                frmSach_Load(sender, e);
+            }
+            return;
             dis_en(false);
         }
 

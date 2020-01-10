@@ -56,6 +56,10 @@
             this.txtMaBaoCaoCongNo = new System.Windows.Forms.TextBox();
             this.NgayLap = new System.Windows.Forms.Label();
             this.MaPhieuNhap = new System.Windows.Forms.Label();
+            this.btnTaoBCCongNo = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
             this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDSCTBaoCaoCongNo)).BeginInit();
             this.tabControl1.SuspendLayout();
@@ -352,17 +356,61 @@
             this.MaPhieuNhap.TabIndex = 0;
             this.MaPhieuNhap.Text = "Mã báo cáo công nợ";
             // 
+            // btnTaoBCCongNo
+            // 
+            this.btnTaoBCCongNo.Location = new System.Drawing.Point(21, 259);
+            this.btnTaoBCCongNo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnTaoBCCongNo.Name = "btnTaoBCCongNo";
+            this.btnTaoBCCongNo.Size = new System.Drawing.Size(79, 46);
+            this.btnTaoBCCongNo.TabIndex = 24;
+            this.btnTaoBCCongNo.Text = "Tạo báo cáo công nợ";
+            this.btnTaoBCCongNo.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(136, 261);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(79, 46);
+            this.button2.TabIndex = 25;
+            this.button2.Text = "Xóa báo cáo";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(249, 261);
+            this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(79, 46);
+            this.button3.TabIndex = 26;
+            this.button3.Text = "In báo cáo";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(384, 261);
+            this.button5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(79, 46);
+            this.button5.TabIndex = 28;
+            this.button5.Text = "Hủy báo cáo";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
             // frmBaoCaoCongNo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1255, 527);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnTaoBCCongNo);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmBaoCaoCongNo";
-            this.Text = "frmThuTien";
+            this.Text = "Báo cáo công nợ";
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDSCTBaoCaoCongNo)).EndInit();
@@ -405,5 +453,9 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txtPhatSinh;
         private System.Windows.Forms.TextBox txtNoCuoi;
+        private System.Windows.Forms.Button btnTaoBCCongNo;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button5;
     }
 }

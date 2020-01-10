@@ -13,3 +13,8 @@ H:\DoAn_LTQLUD\QuanLyNhaSach\obj\Debug\QuanLyNhaSach.csproj.GenerateResource.cac
 H:\DoAn_LTQLUD\QuanLyNhaSach\obj\Debug\QuanLyNhaSach.csproj.CoreCompileInputs.cache
 H:\DoAn_LTQLUD\QuanLyNhaSach\obj\Debug\QuanLyNhaSach.exe
 H:\DoAn_LTQLUD\QuanLyNhaSach\obj\Debug\QuanLyNhaSach.pdb
+H:\DoAn_LTQLUD\QuanLyNhaSach\obj\Debug\QuanLyNhaSach.View.frmPhieuThuTien.resources
+H:\DoAn_LTQLUD\QuanLyNhaSach\obj\Debug\QuanLyNhaSach.View.frmThamSo.resources
+H:\DoAn_LTQLUD\QuanLyNhaSach\obj\Debug\QuanLyNhaSach.View.frmTraCuu.resources
+H:\DoAn_LTQLUD\QuanLyNhaSach\obj\Debug\QuanLyNhaSach.Form1.resources
+H:\DoAn_LTQLUD\QuanLyNhaSach\obj\Debug\QuanLyNhaSach.View.frmBaoCao.resources

@@ -16,7 +16,7 @@ namespace QuanLyNhaSach.Object
         public DateTime NgayLapHoaDon { get => ngayLapHoaDon; set => ngayLapHoaDon = value; }
 
 
-        HoaDonBanSachObj() { }
+        public HoaDonBanSachObj() { }
         HoaDonBanSachObj(string maHoaDon, string maKhachHang, DateTime ngayLap)
         {
             this.MaHoaDon = maHoaDon;

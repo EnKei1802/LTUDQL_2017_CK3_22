@@ -18,6 +18,10 @@ namespace QuanLyNhaSach.Control
 
             return sModel.GetData();
         }
+        public DataTable GetData(string dieukien)
+        {
+            return sModel.GetData(dieukien);
+        }
         public bool addData(SachObject sObj)
         {
 

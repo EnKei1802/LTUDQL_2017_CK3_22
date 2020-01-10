@@ -13,15 +13,15 @@ namespace QuanLyNhaSach.Control
     {
         ChiTietHoaDonBSModel cthdModel = new ChiTietHoaDonBSModel();
 
-        public DataTable getDaTa()
+        public DataTable getDaTa(string ma)
         {
 
-            return cthdModel.GetData();
+            return cthdModel.GetData(ma);
         }
-        public bool addData(ChiTietHoaDonBSObj cthdObj)
+        public bool addData(DataTable dt)
         {
 
-            return cthdModel.AddData(cthdObj);
+            return cthdModel.AddData( dt);
         }
         public bool deleteData(string ma)
         {
